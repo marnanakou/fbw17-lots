@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Twitter wireframe</title>
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      height: 85vh;
+    }
+
+    section {
+      flex: 0 0 50%;
+    }
+
+    section {
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .content-box {
+      border: 1px solid;
+    }
+
+    #content-box-left {
+      min-width: 80%;     
+    }
+
+    #content-box-right {
+      min-width: 60%;
+    }
+
+    .icon {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      background-color: red;
+      vertical-align: top;
+      border-radius: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      height: 32px;
+      padding: 5px;
+      border: 1px solid;
+      border-radius: 10px;
+      /* color:  lightblue; */
+    }
+
+    .btn-full-width {
+      display: block;
+      margin-bottom: 1em;
+    }
+
+    .icon-line {
+      margin-bottom: 30px;
+    }
+
+    .icon-flexbox {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    h1 {
+      margin: 1em 0 1.5em 0;
+    }
+
+    footer {
+      border: 1px solid;
+    }
+
+    footer > ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      list-style-type: none;
+    }
+
+    footer > ul > li {
+      padding: 0 10px;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: #aab8c2;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <section id="section-left">
+      <div class="content-box" id="content-box-left">
+        <div class="icon-line">
+          <div class="icon"></div>Icon List
+        </div>
+        <div class="icon-line">
+          <div class="icon"></div>Icon List
+        </div>
+        <div class="icon-line">
+          <div class="icon"></div>Icon List
+        </div>
+      </div>
+    </section>
+    <section id="section-right">
+      <div class="content-box" id="content-box-right">
+        <div class="icon-flexbox">
+            <div class="icon"></div><div class="btn">Login</div>
+        </div>
+        <h1>Headline</h1>
+        <p>Textline</p>
+        <div class="btn btn-full-width">Register</div>
+        <div class="btn btn-full-width">Login</div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <ul>
+      <li><a href="">Über uns</a></li>
+      <li><a href="">Hilfe-Center</a></li>
+      <li><a href="">Blog</a></li>
+      <li><a href="">Status</a></li>
+      <li><a href="">Jobs</a></li>
+      <li><a href="">Bedingungen</a></li>
+      <li><a href="">Datenschutzrichtlinien</a></li>
+      <li><a href="">Impressum</a></li>
+      <li><a href="">Cookies</a></li>
+      <li><a href="">Info zu Anzeigen</a></li>
+      <li><a href="">Marke</a></li>
+      <li><a href="">Apps</a></li>
+      <li><a href="">Werben</a></li>
+      <li><a href="">Marketing</a></li>
+      <li><a href="">Unternehmen</a></li>
+      <li><a href="">Entwickler</a></li>
+      <li><a href="">Adressbuch</a></li>
+      <li><a href="">Einstellungen</a></li>
+      <li><a href="">© 2019 Twitter</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>
